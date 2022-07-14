@@ -49,3 +49,8 @@ body{
 .ps{
   padding-left: 0.5em;
 }
+
+nav ul a:hover {
+  background-color: rgba(255, 224, 178, 0.541);
+}
+
