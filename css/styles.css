@@ -51,6 +51,9 @@ body{
 }
 
 nav ul a:hover {
-  background-color: rgba(255, 224, 178, 0.541);
+  background-color: rgba(255, 224, 178, 0.7);
 }
 
+.notificationicon{
+  color: #e65100;
+}
