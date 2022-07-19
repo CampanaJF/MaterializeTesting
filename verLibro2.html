@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+		<!--Import Google Icon Font-->
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+		<!--Import materialize.css-->
+		<link type="text/css" rel="stylesheet" href="css/materialize.css"  media="screen,projection"/>
+		<!--Style sheets-->
+		   <link href="css/styles.css" rel="stylesheet">
+		<link href="css/parallax.css" rel="stylesheet">
+		<link href="css/buttonstyle.css" rel="stylesheet">
+		<link href="css/fonts.css" rel="stylesheet">
+        <link href="css/tools.css" rel="stylesheet">
+	
+		
+	</head>
+
+	<title>${libro.titulo}</title>
+
+
+	<body class="orange lighten-4">
+	
+	<!--Nav-->
+	<div class="navbar-fixed">
+		<nav class="teal lighten-5" role="navigation">
+			<div class="nav-wrapper container">
+			  <a id="logo-container" href="home" class="brand-logo">
+				<img class="pt" src="img/favicon-32x32.png"></a>
+
+
+			  <ul class="right hide-on-med-and-down">
+			
+				<li><a class="valign-wrapper" href="biblioteca">
+					<span class="material-symbols-outlined">auto_stories</span><span class="ps">Biblioteca</span></a>
+				</li>
+
+				<li><a class="valign-wrapper" href="#">
+					<span class="material-symbols-outlined">history_edu</span><span class="ps">Nuevo Libro</span></a>
+				</li>
+
+				<li><a class="valign-wrapper" href="#">
+					<span class="material-symbols-outlined notificationicon">workspace_premium</span>
+					<span class="ps">¡Hacete Premium!</span></a>
+				</li>
+				
+				<li><a class="valign-wrapper" href="#">
+					<span class="material-symbols-outlined">person</span>
+					<span class="ps">Perfil</span></a>
+				</li>
+				
+				<li><a class="valign-wrapper" href="#">
+					<span class="material-symbols-outlined">door_open</span><span class="ps">Login</span></a>
+				</li>
+
+				<li><a class="valign-wrapper" href="#">
+					<span class="material-symbols-outlined">app_registration</span><span class="ps">Registrarse</span></a>
+				</li>
+
+				<li>
+					<a class="valign-wrapper" href="">
+						<span class="material-symbols-outlined notificationicon">notifications</span>
+						<span class="subtitulo">4!</span></a>
+				</li>
+		
+			  </ul>
+		
+			  <ul id="nav-mobile" class="sidenav">
+				<li><a href="#">Login</a></li>
+			  </ul>
+			  <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+			</div>
+		</nav>
+		</div>
+<body>
+
+	<!--Container-->
+	<div class="container">
+	<div class="row section">
+		
+		<div class="col s6 m6 l5">
+			<img class="portadalibro" src="img/brujero.jpg">
+			
+		</div>
+
+		<div class=" col s6 m6 l7">
+
+		<div class="row ps1">
+			
+			<h4 class="tituloprincipal">${libro.titulo}</h4>
+			<h6 class=" tituloprincipal">${autor.apellido} ${autor.nombre}</h6>
+
+			<a href="" class="texto btn-large waves-effect waves-light orange darken-3">
+				<i class="material-icons left">add</i>Agregar a Biblioteca</a>
+            
+            <a href="" class="texto btn-large waves-effect waves-light orange darken-3">
+                <i class="material-icons left">star</i>NA</a>
+
+                <div class="ps1 row section valign-wrapper" >
+                    <img class="icons" src="icons/espanol.svg">
+                    <p class="ps minitexto"> Español</p>
+                    <span class="material-symbols-outlined iconrojo ps1">circle</span>
+                    <span class="ps minitexto">Publicado: 2011 , estado </span>
+                    <span class="material-symbols-outlined notificationicon ps1">star</span>
+                    <span class="ps minitexto">9</span>
+                </div>
+
+            
+                <span class="col l2 texto mt1 HeavyWeaponsGuy meSpecial">Generos:</span>
+                <ul class="col l10">
+                    <li><a href=""><span data-badge-caption="custom caption"
+                         class="blue lighten-2 new badge"></span></a></li>
+                    <li><a href=""><span data-badge-caption="genero"
+                         class="blue lighten-2 new badge"></span></a></li>
+                    <li><a href=""><span data-badge-caption="tema"
+                         class="blue lighten-2 new badge"></span></a></li>
+                         <li><a href=""><span data-badge-caption="custom caption"
+                            class="blue lighten-2 new badge"></span></a></li>
+                       <li><a href=""><span data-badge-caption="genero"
+                            class="blue lighten-2 new badge"></span></a></li>
+                       <li><a href=""><span data-badge-caption="tema"
+                            class="blue lighten-2 new badge"></span></a></li>
+                             <li><a href=""><span data-badge-caption="custom caption"
+                         class="blue lighten-2 new badge"></span></a></li>
+                    <li><a href=""><span data-badge-caption="genero"
+                         class="blue lighten-2 new badge"></span></a></li>
+                    <li><a href=""><span data-badge-caption="tema"
+                         class="blue lighten-2 new badge"></span></a></li>
+                </ul>
+
+                <span class="col l2 texto mt1 HeavyWeaponsGuy meSpecial">Temas:</span>
+                <ul class="col l10">
+                    <li><a href=""><span data-badge-caption="custom caption"
+                         class="blue lighten-2 new badge"></span></a></li>
+                    <li><a href=""><span data-badge-caption="genero"
+                         class="blue lighten-2 new badge"></span></a></li>
+                    <li><a href=""><span data-badge-caption="tema"
+                         class="blue lighten-2 new badge"></span></a></li>
+                         <li><a href=""><span data-badge-caption="custom caption"
+                            class="blue lighten-2 new badge"></span></a></li>
+                       <li><a href=""><span data-badge-caption="genero"
+                            class="blue lighten-2 new badge"></span></a></li>
+                       <li><a href=""><span data-badge-caption="tema"
+                            class="blue lighten-2 new badge"></span></a></li>
+                             <li><a href=""><span data-badge-caption="custom caption"
+                         class="blue lighten-2 new badge"></span></a></li>
+                    <li><a href=""><span data-badge-caption="genero"
+                         class="blue lighten-2 new badge"></span></a></li>
+                    <li><a href=""><span data-badge-caption="tema"
+                         class="blue lighten-2 new badge"></span></a></li>
+                </ul>
+   
+		</div>
+
+		</div>
+
+        
+
+	</div>
+
+    <h6 class=" tituloprincipal">Sinopsis</h6>
+    <blockquote class="ps1 texto"> 
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+             Non aut aliquam pariatur alias aperiam molestiae, 
+             veniam tempora ratione culpa in, earum quam. Id neque doloremque minima facilis officia, ex quia.
+             Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+             Non aut aliquam pariatur alias aperiam molestiae, 
+             veniam tempora ratione culpa in, earum quam. Id neque doloremque minima facilis officia, ex quia.</p>
+        </blockquote>
+
+
+	</div>
+
+    
+
+
+	<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+	<script src="js/materialize.js"></script>
+	<script src="js/init.js"></script>
+
+</body>
+</html>
