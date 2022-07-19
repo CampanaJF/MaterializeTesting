@@ -89,14 +89,30 @@
 
 		<div class="row ps1">
 			
-			<h4 class="tituloprincipal">${libro.titulo}</h4>
-			<h6 class=" tituloprincipal">${autor.apellido} ${autor.nombre}</h6>
+			<h4 class="tituloprincipal">Jojo's Bizzarre Adventure: Phantom Blood</h4>
+			<h6 class=" tituloprincipal">Dio Brando</h6>
 
 			<a href="" class="texto btn-large waves-effect waves-light orange darken-3">
 				<i class="material-icons left">add</i>Agregar a Biblioteca</a>
             
-            <a href="" class="texto btn-large waves-effect waves-light orange darken-3">
+            <!-- Dropdown Trigger -->
+            <a href="" class="dropdown-trigger texto btn-large waves-effect waves-light orange darken-3"
+             data-target='dropdown1'>
                 <i class="material-icons left">star</i>NA</a>
+
+                <!-- Dropdown Structure -->
+                <ul id='dropdown1' class='texto dropdownonit dropdown-content'>
+                    <li><a href="#!">(10) Obra Maestra</a></li>
+                    <li><a href="#!">(9) Excelente</a></li>
+                    <li><a href="#!">(8) Muy Bueno</a></li>
+                    <li><a href="#!">(7) Bueno</a></li>
+                    <li><a href="#!">(6) Ok</a></li>
+                    <li><a href="#!">(5) Mediocre</a></li>
+                    <li><a href="#!">(4) Malo</a></li>
+                    <li><a href="#!">(3) Muy Malo</a></li>
+                    <li><a href="#!">(2) Horrible</a></li>
+                    <li><a href="#!">(1) Espantoso</a></li>
+                </ul>
 
                 <div class="ps1 row section valign-wrapper" >
                     <img class="icons" src="icons/espanol.svg">
@@ -104,7 +120,7 @@
                     <span class="material-symbols-outlined iconrojo ps1">circle</span>
                     <span class="ps minitexto">Publicado: 2011 , estado </span>
                     <span class="material-symbols-outlined notificationicon ps1">star</span>
-                    <span class="ps minitexto">9</span>
+                    <span class="ps minitexto">9.99</span>
                 </div>
 
             
@@ -179,6 +195,7 @@
 	<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
 	<script src="js/materialize.js"></script>
 	<script src="js/init.js"></script>
+    <script src="js/select.js"></script>
 
 </body>
 </html>

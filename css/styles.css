@@ -81,3 +81,17 @@ span.badge {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
+
+
+.dropdown-content li > a, .dropdown-content li > span {
+  font-size: 16px;
+  color: #ffffff;
+  background-color: #ef6c00;
+  display: block;
+  line-height: 22px;
+  padding: 14px 16px;
+}
+
+.dropdownonit{
+  width:177px !important;
+}
