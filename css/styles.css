@@ -51,9 +51,8 @@ body{
   width: 25px;
 }
 
-ul > li {
+.tags > li{
   display: inline-block;
-  /* You can also add some margins here to make it look prettier */
 }
 
 .portadalibro{
@@ -63,7 +62,17 @@ ul > li {
 }
 
 nav ul a:hover {
-  background-color: rgba(255, 224, 178, 0.7);
+  background-color: rgba(124, 187, 238, 0.7);
+}
+
+#navmobile ul {
+  background-color: rgba(255, 255, 255, 0.767);
+
+}
+
+#navmobile ul a:hover{
+  background-color: rgba(124, 187, 238, 0.7);
+  font-weight: 600;
 }
 
 span.badge {
@@ -92,6 +101,17 @@ span.badge {
   padding: 14px 16px;
 }
 
-.dropdownonit{
-  width:177px !important;
+.dropdown-content li > a:hover, .dropdown-content li > span.active {
+  font-weight: 600;
+  color: #ffffff;
+  background-color: #64b5f6;
+  display: block;
+  line-height: 22px;
+  padding: 14px 16px;
 }
+
+.dropdownonit{
+  width:195px !important;
+}
+
+
