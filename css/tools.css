@@ -9,7 +9,9 @@
 .pb{
     padding-bottom: 0.5em;
   }
-
+.pb1{
+    padding-bottom: 1.5em;
+  }
 .pe{
     padding-right: 0.5em;
   }
@@ -21,7 +23,9 @@
 .mb{
     margin-bottom: 0.5em;
 }
-
+.mb0{
+  margin-bottom: 0em;
+}
 .mt{
     margin-top: 0.5em;
 }
